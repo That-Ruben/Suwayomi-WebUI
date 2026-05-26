@@ -1246,6 +1246,7 @@ msgid "Decrease auto scroll speed"
 msgstr "Decrease auto scroll speed"
 
 #: src/base/components/buttons/ButtonSelect.tsx
+#: src/base/components/buttons/ValueDropdownButton.tsx
 #: src/base/components/buttons/ValueRotationButton.tsx
 #: src/features/backup/screens/Backup.tsx
 #: src/features/browse/screens/BrowseSettings.tsx
