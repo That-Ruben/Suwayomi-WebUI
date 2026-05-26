@@ -10,7 +10,7 @@ import Stack from '@mui/material/Stack';
 import FitScreenIcon from '@mui/icons-material/FitScreen';
 import { useLingui } from '@lingui/react/macro';
 import { CustomTooltip } from '@/base/components/CustomTooltip.tsx';
-import { ValueRotationButton } from '@/base/components/buttons/ValueRotationButton.tsx';
+import { ValueDropdownButton } from '@/base/components/buttons/ValueDropdownButton.tsx';
 import type {
     IReaderSettings,
     IReaderSettingsWithDefaultFlag,
@@ -40,7 +40,7 @@ export const ReaderNavBarDesktopPageScale = ({
 
     return (
         <Stack sx={{ flexDirection: 'row', gap: 1 }}>
-            <ValueRotationButton
+            <ValueDropdownButton
                 {...buttonSelectInputProps}
                 tooltip={t`Scale type`}
                 value={pageScaleMode.isDefault ? undefined : pageScaleMode.value}

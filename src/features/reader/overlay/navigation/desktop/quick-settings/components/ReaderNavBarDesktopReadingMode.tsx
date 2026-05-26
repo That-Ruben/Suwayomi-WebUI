@@ -7,7 +7,7 @@
  */
 
 import { useLingui } from '@lingui/react/macro';
-import { ValueRotationButton } from '@/base/components/buttons/ValueRotationButton.tsx';
+import { ValueDropdownButton } from '@/base/components/buttons/ValueDropdownButton.tsx';
 import type { IReaderSettingsWithDefaultFlag, ReadingMode } from '@/features/reader/Reader.types.ts';
 import {
     READING_MODE_VALUE_TO_DISPLAY_DATA,
@@ -26,7 +26,7 @@ export const ReaderNavBarDesktopReadingMode = ({
     const { t } = useLingui();
 
     return (
-        <ValueRotationButton
+        <ValueDropdownButton
             {...buttonSelectInputProps}
             tooltip={t`Reading mode`}
             value={readingMode.isDefault ? undefined : readingMode.value}
