@@ -6,7 +6,7 @@
  * file, You can obtain one at https://mozilla.org/MPL/2.0/.
  */
 
-import type { MouseEvent, ReactNode } from 'react';
+import type { MouseEvent, ReactNode, WheelEvent } from 'react';
 import { useState } from 'react';
 import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
@@ -54,35 +54,53 @@ export const ValueDropdownButton = <Value extends string | number>({
         handleClose();
     };
 
+    const handleWheel = (event: WheelEvent<HTMLElement>) => {
+        event.preventDefault();
+        const currentIndex = isDefault ? -1 : values.indexOf(value);
+        if (event.deltaY < 0) {
+            // scroll up → previous
+            if (currentIndex > 0) {setValue(values[currentIndex - 1]);}
+            else if (currentIndex === 0 && isDefaultable) {onDefault?.();}
+        } else if (currentIndex === -1) {
+            // scroll down from default → first value
+            setValue(values[0]);
+        } else if (currentIndex < values.length - 1) {
+            // scroll down → next
+            setValue(values[currentIndex + 1]);
+        }
+    };
+
+    let buttonLabel: ReactNode;
+    if (isDefault) {
+        if (defaultValue === undefined) {
+            buttonLabel = t`Default`;
+        } else {
+            const defaultTitle =
+                typeof valueToDisplayData[defaultValue].title === 'string'
+                    ? valueToDisplayData[defaultValue].title
+                    : t(valueToDisplayData[defaultValue].title);
+            buttonLabel = <Superscript superscript={`(${t`Default`})`} text={defaultTitle} />;
+        }
+    } else {
+        buttonLabel =
+            typeof valueToDisplayData[value].title === 'string'
+                ? valueToDisplayData[value].title
+                : t(valueToDisplayData[value].title);
+    }
+
     return (
         <>
             <CustomTooltip title={tooltip}>
                 <Button
                     onClick={handleOpen}
+                    onWheel={handleWheel}
                     sx={{ justifyContent: 'start', textTransform: 'unset', flexGrow: 1 }}
                     variant="contained"
                     startIcon={isDefault ? defaultIcon : valueToDisplayData[value].icon}
                     endIcon={<ArrowDropDownIcon />}
                     size="large"
                 >
-                    {isDefault ? (
-                        defaultValue === undefined ? (
-                            t`Default`
-                        ) : (
-                            <Superscript
-                                superscript={`(${t`Default`})`}
-                                text={
-                                    typeof valueToDisplayData[defaultValue].title === 'string'
-                                        ? valueToDisplayData[defaultValue].title
-                                        : t(valueToDisplayData[defaultValue].title)
-                                }
-                            />
-                        )
-                    ) : typeof valueToDisplayData[value].title === 'string' ? (
-                        valueToDisplayData[value].title
-                    ) : (
-                        t(valueToDisplayData[value].title)
-                    )}
+                    {buttonLabel}
                 </Button>
             </CustomTooltip>
             <Menu anchorEl={anchorEl} open={open} onClose={handleClose}>
