@@ -529,12 +529,17 @@ export class ReaderControls {
         updateCurrentPageIndex(firstVisibleImageIndex, firstVisibleImageIndex !== lastPageIndex);
     }
 
-    static handleClick(scrollElement: HTMLElement | null, e: React.MouseEvent<HTMLDivElement, MouseEvent>): void {
+    static handleClick(
+        scrollElement: HTMLElement | null,
+        e: React.MouseEvent<HTMLDivElement, MouseEvent>,
+        isDoubleClick: boolean = false,
+    ): void {
         if (!scrollElement) {
             return;
         }
 
-        const { readingMode, readingDirection, isStaticNav, scrollAmount } = getReaderSettingsStore();
+        const { readingMode, readingDirection, isStaticNav, scrollAmount, shouldOpenMenuOnDoubleClick } =
+            getReaderSettingsStore();
 
         const rect = e.currentTarget.getBoundingClientRect();
         const rectRelativeX = e.clientX - rect.left;
@@ -549,10 +554,18 @@ export class ReaderControls {
 
         switch (action) {
             case TapZoneRegionType.MENU:
-                getReaderOverlayStore().setIsVisible(isStaticNav || !getReaderOverlayStore().isVisible);
+                // Only toggle the menu on the trigger matching the configured mode, so that a plain
+                // single click can be used to e.g. just focus the window without opening the overlay.
+                if (shouldOpenMenuOnDoubleClick === isDoubleClick) {
+                    getReaderOverlayStore().setIsVisible(isStaticNav || !getReaderOverlayStore().isVisible);
+                }
                 break;
             case TapZoneRegionType.PREVIOUS:
             case TapZoneRegionType.NEXT:
+                if (isDoubleClick) {
+                    break;
+                }
+
                 if (isContinuousReadingModeActive) {
                     ReaderControls.scroll(
                         action === TapZoneRegionType.PREVIOUS ? ScrollOffset.BACKWARD : ScrollOffset.FORWARD,

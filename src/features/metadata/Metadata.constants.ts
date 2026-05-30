@@ -329,6 +329,9 @@ export const APP_METADATA: Record<
     shouldInformAboutScanlatorChange: {
         convert: convertToBoolean,
     },
+    shouldOpenMenuOnDoubleClick: {
+        convert: convertToBoolean,
+    },
     hideHistory: {
         convert: convertToBoolean,
     },

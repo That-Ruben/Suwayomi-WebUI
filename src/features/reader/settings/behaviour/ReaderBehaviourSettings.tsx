@@ -127,6 +127,18 @@ export const ReaderBehaviourSettings = ({
                 onChange={(_, checked) => updateSetting('shouldShowTransitionPage', checked)}
             />
             <CheckboxInput
+                label={
+                    <Box>
+                        <Typography>{t`Open menu with double click instead of single click`}</Typography>
+                        <Typography variant="body2" color="textDisabled">
+                            {t`Require a double click in the menu zone to open the reader overlay, so a single click can be used to e.g. focus the window without opening the menu`}
+                        </Typography>
+                    </Box>
+                }
+                checked={settings.shouldOpenMenuOnDoubleClick}
+                onChange={(_, checked) => updateSetting('shouldOpenMenuOnDoubleClick', checked)}
+            />
+            <CheckboxInput
                 label={t`Inform about missing chapters on chapter transition`}
                 checked={settings.shouldInformAboutMissingChapter}
                 onChange={(_, checked) => updateSetting('shouldInformAboutMissingChapter', checked)}

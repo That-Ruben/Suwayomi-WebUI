@@ -176,6 +176,7 @@ export interface IReaderSettingsGlobal {
     scrollAmount: ReaderScrollAmount;
     shouldUseInfiniteScroll: boolean;
     shouldShowTransitionPage: boolean;
+    shouldOpenMenuOnDoubleClick: boolean;
     safeAreaInset: SafeAreaInset;
 }
 

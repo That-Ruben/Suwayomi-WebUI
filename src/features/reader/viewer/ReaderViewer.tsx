@@ -267,6 +267,7 @@ const BaseReaderViewer = ({
                 }),
             }}
             onClick={(e) => !isDragging && ReaderControls.handleClick(scrollElementRef.current, e)}
+            onDoubleClick={(e) => !isDragging && ReaderControls.handleClick(scrollElementRef.current, e, true)}
             onScroll={() =>
                 ReaderControls.updateCurrentPageOnScroll(
                     imageRefs,
