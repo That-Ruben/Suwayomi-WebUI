@@ -4035,3 +4035,11 @@ msgstr "Mở menu bằng nhấp đúp thay vì nhấp đơn"
 #: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
 msgid "Require a double click in the menu zone to open the reader overlay, so a single click can be used to e.g. focus the window without opening the menu"
 msgstr "Yêu cầu nhấp đúp vào vùng menu để mở lớp phủ trình đọc, nhờ đó nhấp đơn có thể dùng để ví dụ kích hoạt cửa sổ mà không mở menu"
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Open menu when hovering the reader edge"
+msgstr "Mở menu khi di chuột tới cạnh trình đọc"
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Move the cursor to the left edge of the reader to open the menu, which closes again once the cursor leaves it. Only applies to the desktop reader."
+msgstr "Di chuyển con trỏ tới cạnh trái của trình đọc để mở menu, menu sẽ đóng lại ngay khi con trỏ rời khỏi nó. Chỉ áp dụng cho trình đọc trên máy tính."

@@ -2431,6 +2431,10 @@ msgstr "More"
 msgid "Mountain Sunset"
 msgstr "Mountain Sunset"
 
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Move the cursor to the left edge of the reader to open the menu, which closes again once the cursor leaves it. Only applies to the desktop reader."
+msgstr "Move the cursor to the left edge of the reader to open the menu, which closes again once the cursor leaves it. Only applies to the desktop reader."
+
 #: src/features/reader/settings/ReaderSettings.constants.tsx
 msgid "Multiply"
 msgstr "Multiply"
@@ -2628,6 +2632,10 @@ msgstr "Open in browser"
 #: src/features/source/browse/screens/SourceMangas.tsx
 msgid "Open in WebView"
 msgstr "Open in WebView"
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Open menu when hovering the reader edge"
+msgstr "Open menu when hovering the reader edge"
 
 #: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
 msgid "Open menu with double click instead of single click"

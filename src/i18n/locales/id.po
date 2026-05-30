@@ -3856,3 +3856,11 @@ msgstr "Buka menu dengan klik ganda alih-alih klik tunggal"
 #: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
 msgid "Require a double click in the menu zone to open the reader overlay, so a single click can be used to e.g. focus the window without opening the menu"
 msgstr "Memerlukan klik ganda di zona menu untuk membuka hamparan pembaca, sehingga klik tunggal dapat digunakan misalnya untuk mengaktifkan jendela tanpa membuka menu"
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Open menu when hovering the reader edge"
+msgstr "Buka menu saat mengarahkan kursor ke tepi pembaca"
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Move the cursor to the left edge of the reader to open the menu, which closes again once the cursor leaves it. Only applies to the desktop reader."
+msgstr "Gerakkan kursor ke tepi kiri pembaca untuk membuka menu, yang akan menutup kembali begitu kursor meninggalkannya. Hanya berlaku untuk pembaca desktop."

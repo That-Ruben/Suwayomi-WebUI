@@ -3778,3 +3778,11 @@ msgstr "Menü megnyitása dupla kattintással egyszeres helyett"
 #: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
 msgid "Require a double click in the menu zone to open the reader overlay, so a single click can be used to e.g. focus the window without opening the menu"
 msgstr "Dupla kattintást igényel a menüzónában az olvasó átfedésének megnyitásához, így az egyszeres kattintás használható például az ablak fókuszálására a menü megnyitása nélkül"
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Open menu when hovering the reader edge"
+msgstr "Menü megnyitása az olvasó szélére mutatva"
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Move the cursor to the left edge of the reader to open the menu, which closes again once the cursor leaves it. Only applies to the desktop reader."
+msgstr "Vidd a kurzort az olvasó bal szélére a menü megnyitásához, amely ismét bezárul, amint a kurzor elhagyja. Csak az asztali olvasóra vonatkozik."

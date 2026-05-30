@@ -3150,3 +3150,11 @@ msgstr "Apri il menu con doppio clic invece che con clic singolo"
 #: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
 msgid "Require a double click in the menu zone to open the reader overlay, so a single click can be used to e.g. focus the window without opening the menu"
 msgstr "Richiede un doppio clic nella zona del menu per aprire la sovrapposizione del lettore, così che un clic singolo possa essere usato ad es. per mettere a fuoco la finestra senza aprire il menu"
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Open menu when hovering the reader edge"
+msgstr "Apri il menu passando il cursore sul bordo del lettore"
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Move the cursor to the left edge of the reader to open the menu, which closes again once the cursor leaves it. Only applies to the desktop reader."
+msgstr "Sposta il cursore sul bordo sinistro del lettore per aprire il menu, che si richiude non appena il cursore lo lascia. Si applica solo al lettore desktop."

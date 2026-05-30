@@ -3352,3 +3352,11 @@ msgstr "使用雙擊而非單擊開啟選單"
 #: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
 msgid "Require a double click in the menu zone to open the reader overlay, so a single click can be used to e.g. focus the window without opening the menu"
 msgstr "需要在選單區域雙擊才能開啟閱讀器選單，這樣單擊就可以用於例如啟用視窗而不開啟選單"
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Open menu when hovering the reader edge"
+msgstr "游標停留在閱讀器邊緣時開啟選單"
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Move the cursor to the left edge of the reader to open the menu, which closes again once the cursor leaves it. Only applies to the desktop reader."
+msgstr "將游標移動到閱讀器左邊緣即可開啟選單，游標離開後選單會再次關閉。僅適用於桌面閱讀器。"

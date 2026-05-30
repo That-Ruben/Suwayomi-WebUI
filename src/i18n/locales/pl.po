@@ -3643,3 +3643,11 @@ msgstr "Otwieraj menu podwójnym kliknięciem zamiast pojedynczego"
 #: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
 msgid "Require a double click in the menu zone to open the reader overlay, so a single click can be used to e.g. focus the window without opening the menu"
 msgstr "Wymaga podwójnego kliknięcia w strefie menu, aby otworzyć nakładkę czytnika, dzięki czemu pojedyncze kliknięcie może służyć np. do uaktywnienia okna bez otwierania menu"
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Open menu when hovering the reader edge"
+msgstr "Otwieraj menu po najechaniu na krawędź czytnika"
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Move the cursor to the left edge of the reader to open the menu, which closes again once the cursor leaves it. Only applies to the desktop reader."
+msgstr "Przesuń kursor na lewą krawędź czytnika, aby otworzyć menu, które zamknie się ponownie, gdy kursor je opuści. Dotyczy tylko czytnika na komputerze."

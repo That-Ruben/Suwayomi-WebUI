@@ -3120,3 +3120,11 @@ msgstr "シングルクリックの代わりにダブルクリックでメニュ
 #: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
 msgid "Require a double click in the menu zone to open the reader overlay, so a single click can be used to e.g. focus the window without opening the menu"
 msgstr "メニューゾーンでダブルクリックするとリーダーのオーバーレイが開くようになり、シングルクリックはメニューを開かずに例えばウィンドウをアクティブにするために使えます"
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Open menu when hovering the reader edge"
+msgstr "リーダーの端にカーソルを合わせるとメニューを開く"
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Move the cursor to the left edge of the reader to open the menu, which closes again once the cursor leaves it. Only applies to the desktop reader."
+msgstr "リーダーの左端にカーソルを移動するとメニューが開き、カーソルが離れると再び閉じます。デスクトップリーダーのみに適用されます。"

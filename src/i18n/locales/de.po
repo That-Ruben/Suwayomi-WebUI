@@ -4132,3 +4132,11 @@ msgstr "Menü mit Doppelklick statt Einfachklick öffnen"
 #: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
 msgid "Require a double click in the menu zone to open the reader overlay, so a single click can be used to e.g. focus the window without opening the menu"
 msgstr "Erfordert einen Doppelklick in der Menüzone, um das Leser-Overlay zu öffnen, sodass ein Einfachklick z. B. genutzt werden kann, um das Fenster zu fokussieren, ohne das Menü zu öffnen"
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Open menu when hovering the reader edge"
+msgstr "Menü beim Überfahren des Leser-Rands öffnen"
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Move the cursor to the left edge of the reader to open the menu, which closes again once the cursor leaves it. Only applies to the desktop reader."
+msgstr "Bewege den Mauszeiger an den linken Rand des Lesers, um das Menü zu öffnen; es schließt sich wieder, sobald der Zeiger es verlässt. Gilt nur für den Desktop-Leser."

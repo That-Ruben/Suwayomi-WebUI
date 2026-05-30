@@ -3246,3 +3246,11 @@ msgstr "단일 클릭 대신 더블 클릭으로 메뉴 열기"
 #: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
 msgid "Require a double click in the menu zone to open the reader overlay, so a single click can be used to e.g. focus the window without opening the menu"
 msgstr "메뉴 영역에서 더블 클릭해야 리더 오버레이가 열리므로, 단일 클릭은 메뉴를 열지 않고 예를 들어 창을 활성화하는 데 사용할 수 있습니다"
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Open menu when hovering the reader edge"
+msgstr "리더 가장자리에 마우스를 올리면 메뉴 열기"
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Move the cursor to the left edge of the reader to open the menu, which closes again once the cursor leaves it. Only applies to the desktop reader."
+msgstr "리더의 왼쪽 가장자리로 커서를 옮기면 메뉴가 열리고, 커서가 벗어나면 다시 닫힙니다. 데스크톱 리더에만 적용됩니다."
