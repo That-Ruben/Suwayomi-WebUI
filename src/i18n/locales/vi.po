@@ -4027,3 +4027,11 @@ msgstr "Giao diện Web đã được cập nhật lên phiên bản {newVersion
 #: src/features/manga/hooks/useManageMangaLibraryState.tsx
 msgid "You are about to remove \"{0}\" from your library"
 msgstr "Bạn sắp xóa \"{0}\" từ thư viện của bạn"
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Open menu with double click instead of single click"
+msgstr "Mở menu bằng nhấp đúp thay vì nhấp đơn"
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Require a double click in the menu zone to open the reader overlay, so a single click can be used to e.g. focus the window without opening the menu"
+msgstr "Yêu cầu nhấp đúp vào vùng menu để mở lớp phủ trình đọc, nhờ đó nhấp đơn có thể dùng để ví dụ kích hoạt cửa sổ mà không mở menu"

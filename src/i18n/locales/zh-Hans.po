@@ -4043,3 +4043,11 @@ msgstr "这些选项速度较慢且存在风险，可能会导致被源站限制
 #: src/features/reader/settings/general/components/ReaderSettingSafeAreaInset.tsx
 msgid "Top"
 msgstr "顶部"
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Open menu with double click instead of single click"
+msgstr "使用双击而非单击打开菜单"
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Require a double click in the menu zone to open the reader overlay, so a single click can be used to e.g. focus the window without opening the menu"
+msgstr "需要在菜单区域双击才能打开阅读器菜单，这样单击就可以用于例如激活窗口而不打开菜单"

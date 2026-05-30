@@ -3142,3 +3142,11 @@ msgstr "La libreria è vuota"
 #: src/features/settings/Settings.constants.ts
 msgid "Your library will be accessible. Use this only on private networks or when otherwise securing access."
 msgstr "La tua biblioteca sarà accessibile. Utilizza questa opzione solo su reti private o quando l'accesso è protetto in altro modo."
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Open menu with double click instead of single click"
+msgstr "Apri il menu con doppio clic invece che con clic singolo"
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Require a double click in the menu zone to open the reader overlay, so a single click can be used to e.g. focus the window without opening the menu"
+msgstr "Richiede un doppio clic nella zona del menu per aprire la sovrapposizione del lettore, così che un clic singolo possa essere usato ad es. per mettere a fuoco la finestra senza aprire il menu"

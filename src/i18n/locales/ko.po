@@ -3238,3 +3238,11 @@ msgstr "라이브러리가 비어 있습니다"
 #: src/features/settings/Settings.constants.ts
 msgid "Your library will be accessible. Use this only on private networks or when otherwise securing access."
 msgstr "라이브러리에 접근할 수 있습니다. 개인 네트워크에서만 사용하거나 다른 방법으로 접근을 보호할 때 사용하세요."
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Open menu with double click instead of single click"
+msgstr "단일 클릭 대신 더블 클릭으로 메뉴 열기"
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Require a double click in the menu zone to open the reader overlay, so a single click can be used to e.g. focus the window without opening the menu"
+msgstr "메뉴 영역에서 더블 클릭해야 리더 오버레이가 열리므로, 단일 클릭은 메뉴를 열지 않고 예를 들어 창을 활성화하는 데 사용할 수 있습니다"

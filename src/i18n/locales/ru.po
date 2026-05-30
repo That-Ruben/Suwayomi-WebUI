@@ -3806,3 +3806,11 @@ msgstr "WebUI был обновлен до версии {newVersion} ({0})"
 #: src/features/manga/hooks/useManageMangaLibraryState.tsx
 msgid "You are about to remove \"{0}\" from your library"
 msgstr "Вы собираетесь удалить \"{0}\" из своей библиотеки"
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Open menu with double click instead of single click"
+msgstr "Открывать меню двойным щелчком вместо одинарного"
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Require a double click in the menu zone to open the reader overlay, so a single click can be used to e.g. focus the window without opening the menu"
+msgstr "Требует двойного щелчка в зоне меню для открытия оверлея читалки, чтобы одинарный щелчок можно было использовать, например, для активации окна без открытия меню"

@@ -3635,3 +3635,11 @@ msgstr "WebUI zostało zaktualizowane do wersji {newVersion} ({0})"
 #: src/features/app-updates/components/WebUIUpdateChecker.tsx
 msgid "WebUI version {0} ({1}) available for download"
 msgstr "Wersja WebUI {0} ({1}) jest dostępna do pobrania"
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Open menu with double click instead of single click"
+msgstr "Otwieraj menu podwójnym kliknięciem zamiast pojedynczego"
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Require a double click in the menu zone to open the reader overlay, so a single click can be used to e.g. focus the window without opening the menu"
+msgstr "Wymaga podwójnego kliknięcia w strefie menu, aby otworzyć nakładkę czytnika, dzięki czemu pojedyncze kliknięcie może służyć np. do uaktywnienia okna bez otwierania menu"

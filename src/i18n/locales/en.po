@@ -2629,6 +2629,10 @@ msgstr "Open in browser"
 msgid "Open in WebView"
 msgstr "Open in WebView"
 
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Open menu with double click instead of single click"
+msgstr "Open menu with double click instead of single click"
+
 #: src/features/reader/settings/behaviour/components/ReaderSettingExitMode.tsx
 msgid "Open page on exit"
 msgstr "Open page on exit"
@@ -2887,6 +2891,10 @@ msgstr "Remove selected from the library"
 #: src/features/library/screens/LibrarySettings.tsx
 msgid "Removed non library manga from categories"
 msgstr "Removed non library manga from categories"
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Require a double click in the menu zone to open the reader overlay, so a single click can be used to e.g. focus the window without opening the menu"
+msgstr "Require a double click in the menu zone to open the reader overlay, so a single click can be used to e.g. focus the window without opening the menu"
 
 #: src/base/components/buttons/ResetButton.tsx
 #: src/base/components/settings/CheckboxListSetting.tsx

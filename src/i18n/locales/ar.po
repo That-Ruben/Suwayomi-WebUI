@@ -3898,3 +3898,11 @@ msgstr "حفظ الثيم اللوني الديناميكي"
 #: src/features/source/browse/components/SourceOptions.tsx
 msgid "Save search"
 msgstr "حفظ البحث"
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Open menu with double click instead of single click"
+msgstr "فتح القائمة بالنقر المزدوج بدلاً من النقرة الواحدة"
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Require a double click in the menu zone to open the reader overlay, so a single click can be used to e.g. focus the window without opening the menu"
+msgstr "يتطلب نقرًا مزدوجًا في منطقة القائمة لفتح طبقة القارئ، بحيث يمكن استخدام النقرة الواحدة مثلاً لتنشيط النافذة دون فتح القائمة"

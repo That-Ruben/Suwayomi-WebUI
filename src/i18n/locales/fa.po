@@ -3232,3 +3232,11 @@ msgstr "کتابخانه شما خالی است"
 #: src/features/settings/Settings.constants.ts
 msgid "Your library will be accessible. Use this only on private networks or when otherwise securing access."
 msgstr "کتابخانه شما قابل دسترسی خواهد بود. فقط در شبکه‌های خصوصی یا زمانی که دسترسی را به شکل دیگری ایمن کرده‌اید استفاده کنید."
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Open menu with double click instead of single click"
+msgstr "باز کردن منو با دوبار کلیک به‌جای یک‌بار کلیک"
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Require a double click in the menu zone to open the reader overlay, so a single click can be used to e.g. focus the window without opening the menu"
+msgstr "برای باز کردن هم‌پوشانی خواننده، دوبار کلیک در ناحیه منو لازم است، تا یک‌بار کلیک مثلاً برای فعال‌کردن پنجره بدون باز کردن منو استفاده شود"

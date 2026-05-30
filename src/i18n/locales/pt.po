@@ -3429,3 +3429,11 @@ msgstr "Valor"
 #: src/features/manga/hooks/useManageMangaLibraryState.tsx
 msgid "You are about to remove \"{0}\" from your library"
 msgstr "Estás prestes a remover \"{0}\" da tua biblioteca"
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Open menu with double click instead of single click"
+msgstr "Abrir o menu com clique duplo em vez de clique único"
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Require a double click in the menu zone to open the reader overlay, so a single click can be used to e.g. focus the window without opening the menu"
+msgstr "Exige um clique duplo na zona do menu para abrir a sobreposição do leitor, de modo que um clique único possa ser usado, por ex., para focar a janela sem abrir o menu"

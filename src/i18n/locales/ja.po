@@ -3112,3 +3112,11 @@ msgid "{count, plural, one {Could not change the categories of the manga} other 
 msgstr ""
 "{count, plural, one {マンガのカテゴリーを変更できませんでした} other {マンガ"
 "のカテゴリーを変更できませんでした}}"
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Open menu with double click instead of single click"
+msgstr "シングルクリックの代わりにダブルクリックでメニューを開く"
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Require a double click in the menu zone to open the reader overlay, so a single click can be used to e.g. focus the window without opening the menu"
+msgstr "メニューゾーンでダブルクリックするとリーダーのオーバーレイが開くようになり、シングルクリックはメニューを開かずに例えばウィンドウをアクティブにするために使えます"

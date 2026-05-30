@@ -4124,3 +4124,11 @@ msgstr ""
 #: src/features/reader/settings/general/components/ReaderSettingSafeAreaInset.tsx
 msgid "Top"
 msgstr "Oben"
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Open menu with double click instead of single click"
+msgstr "Menü mit Doppelklick statt Einfachklick öffnen"
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Require a double click in the menu zone to open the reader overlay, so a single click can be used to e.g. focus the window without opening the menu"
+msgstr "Erfordert einen Doppelklick in der Menüzone, um das Leser-Overlay zu öffnen, sodass ein Einfachklick z. B. genutzt werden kann, um das Fenster zu fokussieren, ohne das Menü zu öffnen"

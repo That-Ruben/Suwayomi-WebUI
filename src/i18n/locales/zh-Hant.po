@@ -3344,3 +3344,11 @@ msgstr "您即將從書櫃中刪除「{0}」"
 #: src/features/app-updates/components/WebUIUpdateChecker.tsx
 msgid "{0}% | Updating…"
 msgstr "{0}% | 更新中…"
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Open menu with double click instead of single click"
+msgstr "使用雙擊而非單擊開啟選單"
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Require a double click in the menu zone to open the reader overlay, so a single click can be used to e.g. focus the window without opening the menu"
+msgstr "需要在選單區域雙擊才能開啟閱讀器選單，這樣單擊就可以用於例如啟用視窗而不開啟選單"

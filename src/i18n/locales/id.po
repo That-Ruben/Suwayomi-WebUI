@@ -3848,3 +3848,11 @@ msgid "Your library will be accessible. Use this only on private networks or whe
 msgstr ""
 "Perpustakaan Anda akan dapat diakses. Gunakan ini hanya di jaringan privat "
 "atau saat mengamankan akses dengan cara lain."
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Open menu with double click instead of single click"
+msgstr "Buka menu dengan klik ganda alih-alih klik tunggal"
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Require a double click in the menu zone to open the reader overlay, so a single click can be used to e.g. focus the window without opening the menu"
+msgstr "Memerlukan klik ganda di zona menu untuk membuka hamparan pembaca, sehingga klik tunggal dapat digunakan misalnya untuk mengaktifkan jendela tanpa membuka menu"

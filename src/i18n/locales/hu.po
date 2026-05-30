@@ -3770,3 +3770,11 @@ msgstr "A szerveren lévő electron telepítésre mutató útvonal"
 #: src/features/reader/hotkeys/settings/components/ReaderSettingHotkey.tsx
 msgid "Toggle offset double spreads"
 msgstr "Oldalpárok eltolásának ki/bekapcsolása"
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Open menu with double click instead of single click"
+msgstr "Menü megnyitása dupla kattintással egyszeres helyett"
+
+#: src/features/reader/settings/behaviour/ReaderBehaviourSettings.tsx
+msgid "Require a double click in the menu zone to open the reader overlay, so a single click can be used to e.g. focus the window without opening the menu"
+msgstr "Dupla kattintást igényel a menüzónában az olvasó átfedésének megnyitásához, így az egyszeres kattintás használható például az ablak fókuszálására a menü megnyitása nélkül"
