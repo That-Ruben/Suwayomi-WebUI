@@ -34,6 +34,7 @@ import {
     useReaderSettingsStore,
     useReaderStore,
 } from '@/features/reader/stores/ReaderStore.ts';
+import { READER_NAV_BAR_DESKTOP_CLASS } from '@/features/reader/overlay/hooks/useReaderHoverMenu.ts';
 
 const useGetPreviousNavBarStaticValue = (isVisible: boolean, isStaticNav: boolean) => {
     const wasNavBarStaticRef = useRef(isStaticNav);
@@ -103,6 +104,7 @@ const BaseReaderNavBarDesktop = ({
             transitionDuration={drawerTransitionDuration}
             slotProps={{
                 paper: {
+                    className: READER_NAV_BAR_DESKTOP_CLASS,
                     ref: (ref: HTMLDivElement | null) => setNavBarElement(ref),
                 },
                 transition: {

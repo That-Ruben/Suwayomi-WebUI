@@ -156,6 +156,7 @@ const GLOBAL_READER_SETTING_OBJECT: Record<keyof IReaderSettingsGlobal, undefine
     shouldUseInfiniteScroll: undefined,
     shouldShowTransitionPage: undefined,
     shouldOpenMenuOnDoubleClick: undefined,
+    shouldOpenMenuOnHover: undefined,
     safeAreaInset: undefined,
 };
 
@@ -245,6 +246,7 @@ export const DEFAULT_READER_SETTINGS: IReaderSettings = {
     shouldUseInfiniteScroll: true,
     shouldShowTransitionPage: true,
     shouldOpenMenuOnDoubleClick: false,
+    shouldOpenMenuOnHover: false,
     safeAreaInset: {
         top: true,
         right: true,

@@ -18,12 +18,15 @@ import { ReaderService } from '@/features/reader/services/ReaderService.ts';
 import { withPropsFrom } from '@/base/hoc/withPropsFrom.tsx';
 import { useResizeObserver } from '@/base/hooks/useResizeObserver.tsx';
 import { useReaderOverlayStore } from '@/features/reader/stores/ReaderStore.ts';
+import { useReaderHoverMenu } from '@/features/reader/overlay/hooks/useReaderHoverMenu.ts';
 
 const BaseReaderOverlay = ({
     isDesktop,
     isMobile,
 }: Pick<ReturnType<typeof ReaderService.useOverlayMode>, 'isDesktop' | 'isMobile'>) => {
     const isVisible = useReaderOverlayStore('isVisible');
+
+    useReaderHoverMenu(isDesktop);
 
     const [areSettingsOpen, setAreSettingsOpen] = useState(false);
 

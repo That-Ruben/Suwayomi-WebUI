@@ -139,6 +139,18 @@ export const ReaderBehaviourSettings = ({
                 onChange={(_, checked) => updateSetting('shouldOpenMenuOnDoubleClick', checked)}
             />
             <CheckboxInput
+                label={
+                    <Box>
+                        <Typography>{t`Open menu when hovering the reader edge`}</Typography>
+                        <Typography variant="body2" color="textDisabled">
+                            {t`Move the cursor to the left edge of the reader to open the menu, which closes again once the cursor leaves it. Only applies to the desktop reader.`}
+                        </Typography>
+                    </Box>
+                }
+                checked={settings.shouldOpenMenuOnHover}
+                onChange={(_, checked) => updateSetting('shouldOpenMenuOnHover', checked)}
+            />
+            <CheckboxInput
                 label={t`Inform about missing chapters on chapter transition`}
                 checked={settings.shouldInformAboutMissingChapter}
                 onChange={(_, checked) => updateSetting('shouldInformAboutMissingChapter', checked)}

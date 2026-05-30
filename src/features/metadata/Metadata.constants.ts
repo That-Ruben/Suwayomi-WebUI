@@ -332,6 +332,9 @@ export const APP_METADATA: Record<
     shouldOpenMenuOnDoubleClick: {
         convert: convertToBoolean,
     },
+    shouldOpenMenuOnHover: {
+        convert: convertToBoolean,
+    },
     hideHistory: {
         convert: convertToBoolean,
     },
